@@ -1,6 +1,5 @@
 function mythumb66(json) {
             eval(document.write.START);
-            document.write('<ul class="xpose_thumbs22 xpose_thumbs33 xpose_thumbs44 xpose_thumbs66">');
             for (var i = 0; i < 1; i++) {
               var entry = json.feed.entry[i];
               var posttitle = entry.title.$t;
@@ -33,9 +32,7 @@ function mythumb66(json) {
               var cdyear = postdate.substring(0, 4);
               var cdmonth = postdate.substring(5, 7);
               var cdday = postdate.substring(8, 10);
-              document.write('<li>');
               var towrite = '';
-             document.write('<span>');
               if (showpostthumbnails2 == true)
                 document.write('<a href="' + posturl + '"><div class="xpose_thumb2"><img width="' + thumb_width2 + '" height="' + thumb_height2 + '" alt="' + posttitle + '" src="' + thumburl2.replace("/default.jpg","/hqdefault.jpg") + '"/></div></a>');
               
@@ -45,11 +42,8 @@ function mythumb66(json) {
                 commenttext = '<span class="xpose_meta_comment xpose_meta_comment2"><a href="' + commenturl + '" target ="_top">' + commenttext + '</a></span>';
                 towrite = towrite + commenttext;
               }
-             document.write('</span>');
             towrite = towrite + '<a href="/search/label/'+ json.feed.link[2].href.split("/search/label/")[1] +'" class="xpose_meta_label_names">' + json.feed.link[2].href.replace("%20"," ").split("/search/label/")[1] + '</a>';
               document.write(towrite);
-              document.write('</li>');
             }
-            document.write("</ul>")
             eval(document.write.END);
           }
