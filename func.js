@@ -39,8 +39,6 @@ function mythumb66(json) {
               if (showcommentnum2 == true) {
                 if (commenttext == '1 Comments') commenttext = '1 Comment';
                 if (commenttext == '0 Comments') commenttext = 'No Comments';
-                commenttext = '<span class="xpose_meta_comment xpose_meta_comment2"><a href="' + commenturl + '" target ="_top">' + commenttext + '</a></span>';
-                towrite = towrite + commenttext;
               }
             towrite = towrite + '<a href="/search/label/'+ json.feed.link[2].href.split("/search/label/")[1] +'" class="xpose_meta_label_names">' + json.feed.link[2].href.replace("%20"," ").split("/search/label/")[1] + '</a>';
               document.write(towrite);
