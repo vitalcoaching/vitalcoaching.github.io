@@ -1,4 +1,5 @@
 function mythumb66(json) {
+            eval(document.write.START);
             document.write('<ul class="xpose_thumbs22 xpose_thumbs33 xpose_thumbs44 xpose_thumbs66">');
             for (var i = 0; i < 1; i++) {
               var entry = json.feed.entry[i];
@@ -50,4 +51,5 @@ function mythumb66(json) {
               document.write('</li>');
             }
             document.write("</ul>")
+            eval(document.write.END);
           }
