@@ -34,7 +34,7 @@ function mythumb66(json) {
               var cdday = postdate.substring(8, 10);
               var towrite = '';
               if (showpostthumbnails2 == true)
-                document.write('<a href="' + json.feed.link[2].href + '"><div class="xpose_thumb2"><img width="' + thumb_width2 + '" height="' + thumb_height2 + '" alt="' + posttitle + '" src="' + thumburl2.replace("/default.jpg","/hqdefault.jpg") + '"/></div></a>'+ '<span class="linkshortcode"><a href="/search/label/'+ json.feed.link[2].href.split("/search/label/")[1] +'" class="xpose_meta_label_names">' + json.feed.link[2].href.replace("%20"," ").split("/search/label/")[1] + '</a></span>');
+                document.write('<a href="' + json.feed.link[2].href + '"><div class="xpose_thumb2"><img width="' + thumb_width2 + '" height="' + thumb_height2 + '" alt="' + posttitle + '" src="' + thumburl2.replace("/default.jpg","/hqdefault.jpg") + '"/></div></a>'+ '<span class="linkshortcode"><a href="/search/label/'+ json.feed.link[2].href.split("/search/label/")[1] +'" class="xpose_meta_label_names">' + json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] + '</a></span>');
               
               if (showcommentnum2 == true) {
                 if (commenttext == '1 Comments') commenttext = '1 Comment';
