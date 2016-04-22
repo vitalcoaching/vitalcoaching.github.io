@@ -47,6 +47,7 @@ function mythumb66(json) {
           
           function mythumb77(json) {
             eval(document.write.START);
+            document.write('<h2><a href="'+ json.feed.link[2].href +'" class="xpose_meta_label_names">' + json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] + '</a></h2>');
             for (var i = 0; i < json.feed.entry.length; i++) {
               var entry = json.feed.entry[i];
               var posttitle = entry.title.$t;
