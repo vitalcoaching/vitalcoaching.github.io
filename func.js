@@ -81,7 +81,7 @@ function mythumb66(json) {
               var cdmonth = postdate.substring(5, 7);
               var cdday = postdate.substring(8, 10);
               var towrite = '';
-              if (json.feed.entry.length < json.feed.openSearch$itemsPerPage.$t && i == (json.feed.entry.length-1)){
+              if (json.feed.entry.length == json.feed.openSearch$itemsPerPage.$t && i == (json.feed.entry.length-1)){
                 document.write('<a href="' + posturl + '"><span class="xpose_thumb2"><img width="' + thumb_width2 + '" height="' + thumb_height2 + '" alt="' + posttitle + '" src="' + thumburl2.replace("/default.jpg","/hqdefault.jpg") + '"/></span></a>'+ '<span class="linkshortcode"><a href="'+ posturl +'" class="xpose_meta_label_names">' + posttitle + '</a></span><a href="'+ json.feed.link[2].href +'" class="read_more">></a>');
               }else {
                document.write('<a href="' + posturl + '"><span class="xpose_thumb2"><img width="' + thumb_width2 + '" height="' + thumb_height2 + '" alt="' + posttitle + '" src="' + thumburl2.replace("/default.jpg","/hqdefault.jpg") + '"/></span></a>'+ '<span class="linkshortcode"><a href="'+ posturl +'" class="xpose_meta_label_names">' + posttitle + '</a></span>');
