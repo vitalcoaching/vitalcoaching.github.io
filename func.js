@@ -81,9 +81,11 @@ function mythumb66(json) {
               var cdmonth = postdate.substring(5, 7);
               var cdday = postdate.substring(8, 10);
               var towrite = '';
-              if (showpostthumbnails2 == true)
-                document.write('<a href="' + posturl + '"><span class="xpose_thumb2"><img width="' + thumb_width2 + '" height="' + thumb_height2 + '" alt="' + posttitle + '" src="' + thumburl2.replace("/default.jpg","/hqdefault.jpg") + '"/></span></a>'+ '<span class="linkshortcode"><a href="'+ posturl +'" class="xpose_meta_label_names">' + posttitle + '</a></span>');
-              
+              if (json.openSearch$itemsPerPage.$t < json.feed.entry.length && i === (json.feed.entry.length-1)){
+                document.write('<a href="' + posturl + '"><span class="xpose_thumb2"><img width="' + thumb_width2 + '" height="' + thumb_height2 + '" alt="' + posttitle + '" src="' + thumburl2.replace("/default.jpg","/hqdefault.jpg") + '"/></span></a>'+ '<span class="linkshortcode"><a href="'+ posturl +'" class="xpose_meta_label_names">' + posttitle + '</a></span><a href="'+ json.feed.link[2].href +'" class="read_more">></a>');
+              }else {
+               document.write('<a href="' + posturl + '"><span class="xpose_thumb2"><img width="' + thumb_width2 + '" height="' + thumb_height2 + '" alt="' + posttitle + '" src="' + thumburl2.replace("/default.jpg","/hqdefault.jpg") + '"/></span></a>'+ '<span class="linkshortcode"><a href="'+ posturl +'" class="xpose_meta_label_names">' + posttitle + '</a></span>');
+              }
               if (showcommentnum2 == true) {
                 if (commenttext == '1 Comments') commenttext = '1 Comment';
                 if (commenttext == '0 Comments') commenttext = 'No Comments';
