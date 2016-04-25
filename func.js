@@ -112,10 +112,9 @@ function mythumb66(json) {
                 b = s.indexOf("src=\"", a);
                 c = s.indexOf("\"", b + 5);
                 d = s.substr(b + 5, c - b - 5);
-                console.log(json.feed.link[2].href.replace(/%20/g," "));
-                if(json.feed.link[2].href.replace(/%20/g," ") == "dating for women"){noThumbArrays = dfw;}else 
-                if(json.feed.link[2].href.replace(/%20/g," ") == "I have a crush"){noThumbArrays = ihac;}else 
-                if(json.feed.link[2].href.replace(/%20/g," ") == "dating for men" ||json.feed.link[2].href.replace(/%20/g," ") == "dating for men articles" ||json.feed.link[2].href.replace(/%20/g," ") == "dating for men audios" ||json.feed.link[2].href.replace(/%20/g," ") == "dating for men videos"){noThumbArrays = dfm;} 
+                if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for women"){noThumbArrays = dfw;}else 
+                if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "I have a crush"){noThumbArrays = ihac;}else 
+                if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men videos"){noThumbArrays = dfm;} 
                 else{noThumbArrays = noThumbArray;}
                 if ((a != -1) && (b != -1) && (c != -1) && (d != "")) {
                   thumburl2 = d;
