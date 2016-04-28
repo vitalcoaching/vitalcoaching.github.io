@@ -69,6 +69,39 @@ var bufm = ["http://1.bp.blogspot.com/-9qR7E-JIcZM/VyJbCs-6nHI/AAAAAAAATzw/5SeEP
  "http://3.bp.blogspot.com/-oRSHC0vm720/VyJdFA8iRmI/AAAAAAAAT3o/ZGyoviYgUaszl4cYfMkgfqAsjy1P1Qq0QCK4B/s1600/30.jpg",
  "http://1.bp.blogspot.com/-FFva-SIhLjk/VyJdJhBOATI/AAAAAAAAT30/DkiVUnr53ps9Rb5b8H1GVqR6rtpivW9RwCK4B/s1600/31.jpg",
  "http://4.bp.blogspot.com/-AEPkVtEQFt8/VyJdNGgvTHI/AAAAAAAAT38/Hs2cncPEwNATbmKuU2O8KgvzaJejEVcPACK4B/s1600/32.jpg"];
+
+var jfm = ["http://3.bp.blogspot.com/-HR-w30PGMY0/VyJhBxY7mBI/AAAAAAAAT4M/yABGQwD_ciQRZATFQvNO5Hvki6j6eZpJACK4B/s1600/1.jpg",
+ "http://1.bp.blogspot.com/-nOjsVxpDM1w/VyJhHDSoYfI/AAAAAAAAT4U/u98GRd7zmxUzvK7nOTiwoCWlmssBoMDEwCK4B/s1600/2.jpg",
+ "http://3.bp.blogspot.com/-KYMS06v4kUc/VyJhKyi_VvI/AAAAAAAAT4c/xgJG-Y6-fMkW5G3W6zPDOXhV083XHG7dACK4B/s1600/3.jpg",
+ "http://4.bp.blogspot.com/-SORWMwyH5z0/VyJhPFZbquI/AAAAAAAAT4k/4EnN5pW9kBk08yA2u8xXtdUsKA9TRNxqgCK4B/s1600/4.jpg",
+ "http://3.bp.blogspot.com/-s_k3gm7uqPo/VyJhSe1pwII/AAAAAAAAT4s/R39mNjGR9X4-fcNIS6T1SN9it4kNvNXUACK4B/s1600/5.jpg",
+ "http://4.bp.blogspot.com/-9-5tSPs86dE/VyJhWVJaHNI/AAAAAAAAT40/t5GNv3PNj68ynWo1C37-0rLF2JtrZ6KWACK4B/s1600/6.jpg",
+ "http://1.bp.blogspot.com/-WfCFz_oaowc/VyJhaR6vVWI/AAAAAAAAT48/KL23qpW3XAUhpDMefbu2IFDrBl2VtsTwACK4B/s1600/7.jpg",
+ "http://2.bp.blogspot.com/-8z6f4ErSWT8/VyJhdww-bkI/AAAAAAAAT5E/eDQBJpBEIQUXBcfMAXuzeWzfY4O7q873gCK4B/s1600/8.jpg",
+ "http://1.bp.blogspot.com/-a_QRWSGwJDU/VyJhjcuHYKI/AAAAAAAAT5M/_QJObwv8K1Qj7VxJgnwygMSOQHAAYkLxQCK4B/s1600/9.jpg",
+ "http://3.bp.blogspot.com/-R2_YFdu7m4A/VyJhpKVavDI/AAAAAAAAT5U/twxK_1SdVHMfDz-KLj2dAX9HTLYUEVLHwCK4B/s1600/10.jpg ",
+ "http://4.bp.blogspot.com/-uCJwg6G0Ul8/VyJhthghE7I/AAAAAAAAT5g/_UqYnupLbTotEHavrr9VkXuH5SLQ49vgACK4B/s1600/11.jpg",
+ "http://2.bp.blogspot.com/-UetV99J93MY/VyJhxCIJKZI/AAAAAAAAT5o/W985kXQMpXo6HJDwXRaM8cocBUG6i8DDQCK4B/s1600/12.jpg",
+ "http://1.bp.blogspot.com/-cMEznolSVTY/VyJh0vb-4HI/AAAAAAAAT5w/VGMPmPTTni41ZhSL1QVdL-bEk1mQW74EACK4B/s1600/13.jpg",
+ "http://1.bp.blogspot.com/-YixfApyApNs/VyJh5bM3oMI/AAAAAAAAT54/ARh1hPmH-nowZnQ_Mqss27jlg3KBfDzqgCK4B/s1600/14.jpg",
+ "http://3.bp.blogspot.com/-NdEgLZ43uz4/VyJh9c0lUHI/AAAAAAAAT6A/A4ZD8w5NvsURr4FjDZQijPDe03JbHXIEwCK4B/s1600/15.jpg",
+ "http://1.bp.blogspot.com/-sO2tEncphas/VyJiBihWdrI/AAAAAAAAT6I/oZsd_ZPw5cgBO6YEIZjA_hvVPIN0r-RqQCK4B/s1600/16.jpg",
+ "http://4.bp.blogspot.com/-bz-0OsmQsc8/VyJiFNYTtjI/AAAAAAAAT6U/CTlCVY_PVGMBb77ew8_B88CCwjbLy6-lgCK4B/s1600/17.jpg",
+ "http://1.bp.blogspot.com/-EMCmvcYWG9M/VyJiJBAklXI/AAAAAAAAT6c/3RZ5ZPyBxWAdnOV2gUTbQL-682xjKeUrQCK4B/s1600/18.jpg",
+ "http://4.bp.blogspot.com/-_zkOnFaUtXM/VyJiMr55sWI/AAAAAAAAT6k/IzGwAdZ3Tn4TMpox2UolXc_jpuWqT0kGQCK4B/s1600/19.jpg",
+ "http://3.bp.blogspot.com/-SwVpxx45nj4/VyJiQeAhwlI/AAAAAAAAT6s/UzYfn_vYGWcrD1S9XSKIxc6-gIHf5LHggCK4B/s1600/20.jpg",
+ "http://3.bp.blogspot.com/-4pGUwd2MXB8/VyJiUAGm_9I/AAAAAAAAT60/tolypdsNuoI31Eb0009Nd7Y5hXsH73OqwCK4B/s1600/21.jpg",
+ "http://4.bp.blogspot.com/-BCMe3TSfb_o/VyJiX-tgleI/AAAAAAAAT7A/fMne9MZGkwgHwbPtHidNl33jPB8Co0Z8gCK4B/s1600/22.jpg",
+ "http://1.bp.blogspot.com/-a-qXLU-WdWo/VyJibaubK-I/AAAAAAAAT7I/KIBOZrKSH9kiHhvmivvQN5sL6gdnS2hvQCK4B/s1600/23.jpg",
+ "http://2.bp.blogspot.com/-qU_4DoeFc94/VyJifLHh2rI/AAAAAAAAT7Q/Gfa1WdLg6pAYC9hPUeGcU99-oXN7rySrQCK4B/s1600/24.jpg",
+ "http://3.bp.blogspot.com/-Zn_FcT6a9Nw/VyJj0jjIsAI/AAAAAAAAT7g/uDiAC-kKZlMOqj95bDv5o58UhNI5I9FVACK4B/s1600/25.jpg",
+ "http://2.bp.blogspot.com/-fKGnJd3h-4s/VyJj6A2hfjI/AAAAAAAAT7o/2KDbEbMu2dAFDCe52Pg7NiSYiv84xgx8QCK4B/s1600/26.jpg",
+ "http://3.bp.blogspot.com/-KoajYMtsI6s/VyJj9-Y7_7I/AAAAAAAAT7w/tV7iFfUFFnUjvhB6Tdd0TQVECHUA3slZACK4B/s1600/27.jpg",
+ "http://2.bp.blogspot.com/-lShOgEJjN2w/VyJkCeI4myI/AAAAAAAAT74/Yz3dH80uqhI0_m_dHmxUeen4u5DIvDkAACK4B/s1600/28.jpg",
+ "http://1.bp.blogspot.com/-STWgx7BtZGI/VyJkGe2_DMI/AAAAAAAAT8A/-dbuMqV0ay4Q3BORZ3UvAuhFyT0quEciACK4B/s1600/29.jpg",
+ "http://4.bp.blogspot.com/-hg5eJ8kdHdE/VyJkKz7EofI/AAAAAAAAT8I/dLx0kG62nrE4eMDN550qr7SSqvSlEjzAwCK4B/s1600/30.jpg",
+ "http://4.bp.blogspot.com/-509L5q2yJsM/VyJkO4R8exI/AAAAAAAAT8Q/mtIUsDCLcLwHtm2lF8-BiQ_kIxcS5dWOACK4B/s1600/31.jpg",
+ "http://3.bp.blogspot.com/-jX8_-rbLg_Y/VyJkSXSZw3I/AAAAAAAAT8Y/wAli7n9-XWQxlT_DZyZ0ed4BJMpr8CdQgCK4B/s1600/32.jpg"];
  
 var noThumbArrays;			
  
@@ -149,7 +182,8 @@ function mythumb66(json) {
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for women"){noThumbArrays = dfw;}else 
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "I have a crush"){noThumbArrays = ihac;}else 
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men videos"){noThumbArrays = dfm;}else 
-                if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men feedback"){{noThumbArrays = bufm;}
+                if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men feedback"){noThumbArrays = bufm;}else
+                if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men feedback"){noThumbArrays = jfm;}
                 else{noThumbArrays = noThumbArray;}
                 if ((a != -1) && (b != -1) && (c != -1) && (d != "")) {
                   thumburl2 = d;
@@ -203,7 +237,8 @@ function mythumb66(json) {
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for women"){noThumbArrays = dfw;}else 
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "I have a crush"){noThumbArrays = ihac;}else 
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men videos"){noThumbArrays = dfm;} else
-                if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men feedback"){{noThumbArrays = bufm;}
+                if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men feedback"){noThumbArrays = bufm;}else
+                if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men feedback"){noThumbArrays = jfm;}
                 else{noThumbArrays = noThumbArray;}
                 if ((a != -1) && (b != -1) && (c != -1) && (d != "")) {
                   thumburl2 = d;
