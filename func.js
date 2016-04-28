@@ -195,6 +195,31 @@ var bm = [
  "http://2.bp.blogspot.com/-u8a2OX-8_h0/VyJxj-fGHeI/AAAAAAAAUJM/WYOVT70hl_AXmnzmJbVN4r2irhX0fS2-QCK4B/s1600/89.jpg",
  "http://2.bp.blogspot.com/-8BrlDmLhtPw/VyJxnrCbVNI/AAAAAAAAUJU/aSA3wOts2I8elfGDmiAzEOjCG4ULu9QIwCK4B/s1600/90.jpg"];
  
+var jfw = ["http://1.bp.blogspot.com/-s1ZtNM_IKIc/VyJ0QAOAt4I/AAAAAAAAUJk/xOIJFGbyEZA5PQymGT3G306sp_rJ8DYVACK4B/s1600/1.jpg",
+ "http://4.bp.blogspot.com/-mQmO8e8cpLs/VyJ0UGWnsuI/AAAAAAAAUJs/g2c6g4nSYcwR6Yi8lR_gsdQYpfZ7hnojQCK4B/s1600/2.jpg",
+ "http://2.bp.blogspot.com/-_SragqFiHYM/VyJ0XyImPGI/AAAAAAAAUJ0/l3Aq9SMz7s0TfC60yvAfx_y5CZnnZMA7ACK4B/s1600/3.jpg",
+ "http://3.bp.blogspot.com/-xDt20eXdUWo/VyJ0cjYY7xI/AAAAAAAAUJ8/4RDEYoqvZYQWDw3n-OIPlwZ9a7xApsiygCK4B/s1600/4.jpg",
+ "http://1.bp.blogspot.com/-FtZsMush_o4/VyJ0gV6vZyI/AAAAAAAAUKE/03HaUA9eygc296AvLnNTdUdB4ZdyP-zHACK4B/s1600/5.jpg",
+ "http://1.bp.blogspot.com/-Ci6hVwAmm9k/VyJ0qeA_EnI/AAAAAAAAUKU/xaOk3AoLZnE9BnDY5y7Wj95Jlso5l4XfwCK4B/s1600/6.jpg",
+ "http://4.bp.blogspot.com/-egcCYguOeio/VyJ0kPsbeRI/AAAAAAAAUKM/eD6SQ5CwZPkFlkAd0EWb-LAk25lsJJ60QCK4B/s1600/7.jpg",
+ "http://2.bp.blogspot.com/-bALteqt7Knw/VyJ0uYeoB5I/AAAAAAAAUKc/Wf7je445txIISadRCgrwo6xwBkmHw6KSACK4B/s1600/8.jpg",
+ "http://4.bp.blogspot.com/-pZNPe5SBtS4/VyJ0yAzXJMI/AAAAAAAAUKk/0ddDxP-zuKAMab4Uy8bhx8sHcAB9JOIYACK4B/s1600/9.jpg",
+ "http://3.bp.blogspot.com/-0fYO_9bKPgc/VyJ018lP05I/AAAAAAAAUKw/ejpI8ht6cToNRexgONON5uUa5W-pwAxvgCK4B/s1600/10.jpg",
+ "http://2.bp.blogspot.com/-DR9w_4sTrSE/VyJ06CGZZwI/AAAAAAAAUK4/pkci178QLK4Gn3pP8-_piy8C4POh0bGRQCK4B/s1600/11.jpg",
+ "http://2.bp.blogspot.com/-eUA3JfszKn8/VyJ098oSbCI/AAAAAAAAULA/di7rTogupvo0pWh8xvmAaI12pXQIMtvZgCK4B/s1600/12.jpg",
+ "http://1.bp.blogspot.com/-8QSTof5LFvU/VyJ1B44ZAFI/AAAAAAAAULM/BcTMxlOBzeQbejKYIdwg3nwUwt5pe-UqwCK4B/s1600/13.jpg",
+ "http://3.bp.blogspot.com/-djEHiGKxDvc/VyJ1Frs4WXI/AAAAAAAAULU/xiQ7lH5WBmYnNvdr9gFkd-v0Rhsv7qoswCK4B/s1600/14.jpg",
+ "http://2.bp.blogspot.com/-4ZZV_dw6dVY/VyJ1JYVwzRI/AAAAAAAAULc/2OKo6HlzDZwtBby0crUZPLaCEX2jshUKQCK4B/s1600/15.jpg",
+ "http://1.bp.blogspot.com/-MAMzXKUOE_M/VyJ1NIMcizI/AAAAAAAAULo/6O79JbHG5gEiPrgTo2ZaluXqACBKak4wACK4B/s1600/16.jpg",
+ "http://2.bp.blogspot.com/-nWapg7LPYSI/VyJ1RE_NufI/AAAAAAAAUL0/D0ALGHocw4UfE-U3EN4brYLXLgYPNLdwACK4B/s1600/17.jpg",
+ "http://2.bp.blogspot.com/-mCsGj0NUJ7M/VyJ1VoZX_lI/AAAAAAAAUL8/zas4mIZugWsgyWkCEezbAt3vtCeQcMlXwCK4B/s1600/18.jpg",
+ "http://3.bp.blogspot.com/-abzD1woeggc/VyJ1ZaJxAuI/AAAAAAAAUMI/OOG6aYd02Ikqok4wM3Dy8X3Q8S4SROoewCK4B/s1600/19.jpg",
+ "http://2.bp.blogspot.com/-P9s4BF0oQik/VyJ1cwjCU-I/AAAAAAAAUMQ/cY3GAQjGsS8R9ARrRtlaYKtC1OyE6IajwCK4B/s1600/20.jpg",
+ "http://3.bp.blogspot.com/-bDoX7jAMabU/VyJ1gd7N4WI/AAAAAAAAUMY/8DJWbQ1_ZPEI9mrZPqLjVRpyrOFXV5gCwCK4B/s1600/21.jpg",
+ "http://1.bp.blogspot.com/-vGBFK0XPsaE/VyJ1jwLxATI/AAAAAAAAUMg/R3_vqMIOtrY9wfa7hOpY6L5N2Rg5jmwlQCK4B/s1600/22.jpg",
+ "http://4.bp.blogspot.com/-E0HVX_gPPkk/VyJ1oi0V53I/AAAAAAAAUMs/fH8RGy9HlTQrSt-arI8fQZulu2WseiU4gCK4B/s1600/23.jpg",
+ "http://4.bp.blogspot.com/-nNCf1ISwuRE/VyJ1r9QIcbI/AAAAAAAAUM0/PVoiOPDUFtobRpQMPuG8U9pXTNN-pf7VACK4B/s1600/24.jpg"];
+ 
 var noThumbArrays;			
  
 function mythumb66(json) {
@@ -276,6 +301,7 @@ function mythumb66(json) {
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men videos"){noThumbArrays = dfm;}else 
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men feedback"){noThumbArrays = bufm;}else
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men feedback"){noThumbArrays = jfm;}else
+                if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for women" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for women articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for women videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for women audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for women feedback"){noThumbArrays = jfw;}else
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "babaji" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "mataji" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "mataji articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "babaji articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "babaji videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "babaji audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "babaji feedback"){noThumbArrays = bm;}
                 else{noThumbArrays = noThumbArray;}
                 if ((a != -1) && (b != -1) && (c != -1) && (d != "")) {
@@ -332,6 +358,7 @@ function mythumb66(json) {
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men videos"){noThumbArrays = dfm;} else
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men feedback"){noThumbArrays = bufm;}else
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men feedback"){noThumbArrays = jfm;}else
+                if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for women" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for women articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for women videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for women audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for women feedback"){noThumbArrays = jfw;}else
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "babaji" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "mataji" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "mataji articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "babaji articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "babaji videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "babaji audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "babaji feedback"){noThumbArrays = bm;}
                 else{noThumbArrays = noThumbArray;}
                 if ((a != -1) && (b != -1) && (c != -1) && (d != "")) {
