@@ -220,6 +220,81 @@ var jfw = ["http://1.bp.blogspot.com/-s1ZtNM_IKIc/VyJ0QAOAt4I/AAAAAAAAUJk/xOIJFG
  "http://4.bp.blogspot.com/-E0HVX_gPPkk/VyJ1oi0V53I/AAAAAAAAUMs/fH8RGy9HlTQrSt-arI8fQZulu2WseiU4gCK4B/s1600/23.jpg",
  "http://4.bp.blogspot.com/-nNCf1ISwuRE/VyJ1r9QIcbI/AAAAAAAAUM0/PVoiOPDUFtobRpQMPuG8U9pXTNN-pf7VACK4B/s1600/24.jpg"];
  
+ var bufw = [
+ "http://4.bp.blogspot.com/-OprBjd3T054/VyJ5FX967_I/AAAAAAAAUNE/8W3DvTHUAZsvfsJY4A2mi7-rpKCQnjVzACK4B/s1600/1.jpg",
+ "http://2.bp.blogspot.com/-u5pT7NDWOHM/VyJ5J62avqI/AAAAAAAAUNM/X-J0nbFRVOE_n-1hkDbuY3pbMfgqU2LOwCK4B/s1600/2.jpg",
+ "http://1.bp.blogspot.com/-xnwMcUla2GM/VyJ5Nnvy-8I/AAAAAAAAUNU/R4pmgvuncHAF01_Ie_rytO6gCKz8a5RxgCK4B/s1600/3.jpg",
+ "http://4.bp.blogspot.com/-boZIOx4McrE/VyJ5RPHj_XI/AAAAAAAAUNc/EmhTG51hKhs6PeZ1al1mgXKBnLu_bxXkwCK4B/s1600/4.jpg",
+ "http://1.bp.blogspot.com/-91XqO7uvtoY/VyJ5Uj2GZ4I/AAAAAAAAUNk/hd5PfjeFzQMdo2vDGRza_6mRrL_YJcW4wCK4B/s1600/5.jpg",
+ "http://4.bp.blogspot.com/-iPcbx6CuqLs/VyJ5YOPHIzI/AAAAAAAAUNs/Pc-4_N0jLvIolS6-12faVFs7ThTDFR5zQCK4B/s1600/6.jpg",
+ "http://4.bp.blogspot.com/-UpPE0mjTur4/VyJ5behaHRI/AAAAAAAAUN0/UNynuQ866FAMMw-k_eApXmBsMfZDBAnGwCK4B/s1600/7.jpg",
+ "http://4.bp.blogspot.com/-GKWcjRZt50c/VyJ5fzrIVcI/AAAAAAAAUN8/Zo_gd-dzuBweMtXyd6GgMz28K64oAV-rACK4B/s1600/8.jpg",
+ "http://3.bp.blogspot.com/-VfFioXmPyPA/VyJ5jkgseeI/AAAAAAAAUOE/7Lq3bF1Y5ykgPgARdcSAaIGjUuFx2eXLwCK4B/s1600/9.jpg",
+ "http://2.bp.blogspot.com/-JxoptMxXSFY/VyJ5nZX0g3I/AAAAAAAAUOQ/zL9cyk6ijfUddBc3Qrn8siwV_MYrJ-mngCK4B/s1600/10.jpg",
+ "http://1.bp.blogspot.com/-pFdM9i-BnHs/VyJ5rIioTvI/AAAAAAAAUOY/zIZM7TtZ8woKOp3lpHZKU9cjHurcmsyTwCK4B/s1600/11.jpg",
+ "http://3.bp.blogspot.com/-x6dlSGs1Zcw/VyJ5uTvRXvI/AAAAAAAAUOg/ek6cWWGj6a4CQ9SVAJXClOwYF0VV7Ns-QCK4B/s1600/12.jpg",
+ "http://3.bp.blogspot.com/-GfBXXgotydQ/VyJ5yC-qgeI/AAAAAAAAUOo/3AwLmPXYMN4bsRhqo8VM43iCdtDFgXxOACK4B/s1600/13.jpg",
+ "http://3.bp.blogspot.com/-TQMMHKHQtmA/VyJ52h-IcFI/AAAAAAAAUOw/0UBiSgWrTmg8hEVzUsEIJFfDpHxTli73wCK4B/s1600/14.jpg",
+ "http://4.bp.blogspot.com/-Gy8A40OH_I0/VyJ56V6CSbI/AAAAAAAAUO8/Y0IGOY-qk6cQ34DAuLUVstLPy4dVG92yQCK4B/s1600/15.jpg",
+ "http://1.bp.blogspot.com/-gZHByKa6Zjk/VyJ5-NiwPhI/AAAAAAAAUPE/YgOWUMuf47YNYM2S2xoctywSTIxCmG5YACK4B/s1600/16.jpg",
+ "http://3.bp.blogspot.com/-JaiO7y17Dac/VyJ6CvKg5sI/AAAAAAAAUPM/6ghHg0Mbf4YM4uWCPq6nQn5FwqmCyIy8wCK4B/s1600/17.jpg",
+ "http://3.bp.blogspot.com/-Y6gsQtkQ494/VyJ6HJAy2BI/AAAAAAAAUPY/WfIpTAJC8now_EemIS5fQhRd6EvarKhFgCK4B/s1600/18.jpg",
+ "http://4.bp.blogspot.com/-hUBo1aO2lGQ/VyJ6Kyiob-I/AAAAAAAAUPg/oQjWQjSs_jsMi5w0Us8q-CM1jNSc0v5NwCK4B/s1600/19.jpg",
+ "http://1.bp.blogspot.com/-AXee4cX5T3I/VyJ6OuCuYnI/AAAAAAAAUPo/Yb_115NcHLs-piNngofTTDOx1fLAC-8vACK4B/s1600/20.jpg",
+ "http://1.bp.blogspot.com/-VcM_9Lc_7VQ/VyJ6THo8zEI/AAAAAAAAUP0/nTJ1spb5R44jjDbGZnq5DdoV52SfqzO0ACK4B/s1600/21.jpg",
+ "http://1.bp.blogspot.com/-LrCy_Ak6Ai4/VyJ6XK1c2FI/AAAAAAAAUP8/O9izdvgaya8IxBIsSYswu_fmy2IQ1KK-QCK4B/s1600/22.jpg",
+ "http://3.bp.blogspot.com/-szfCCa75fbg/VyJ6bJ0GTkI/AAAAAAAAUQE/8NeJzPCd8iEHYGodS8lwuxJIqHIYI0jRgCK4B/s1600/23.jpg",
+ "http://4.bp.blogspot.com/-4iuFqJwjBSk/VyJ6ev0NAMI/AAAAAAAAUQM/E6ZJHLvZeE8Sw2bDekO7M-bLwvDYxDwdwCK4B/s1600/24.jpg",
+ "http://4.bp.blogspot.com/-mJFj1DCBGcg/VyJ6h54c2qI/AAAAAAAAUQU/DBXrAbLw5mwAa3bmBtKdWeOv86mgE813wCK4B/s1600/25.jpg",
+ "http://2.bp.blogspot.com/-keIOJvnwpVs/VyJ6loyTnpI/AAAAAAAAUQg/0hmV6e4Dhp8MsmYHxObXgdsHrP3S4iL8wCK4B/s1600/26.jpg",
+ "http://2.bp.blogspot.com/-UiPj-WBSWu8/VyJ6piXXBQI/AAAAAAAAUQo/I1-k_U5WrIsho6PND-jJPGjeWw5_myZxACK4B/s1600/27.jpg",
+ "http://4.bp.blogspot.com/-t9kIWFDl4zI/VyJ6tGHfwfI/AAAAAAAAUQw/va7VHk2mk849yvgU92F5h-j6oeNm-ejEQCK4B/s1600/28.jpg",
+ "http://1.bp.blogspot.com/-yBFUe829tvw/VyJ6wq-Kg_I/AAAAAAAAUQ8/DKZsfVI9UEoB2tEKacua_cr1vjnYcFsdgCK4B/s1600/29.jpg",
+ "http://2.bp.blogspot.com/-DVCnxhLHT1o/VyJ60C093EI/AAAAAAAAURE/z3uLfqXTWoEAbdOCPmQSG_WQN9ChdgwUACK4B/s1600/30.jpg",
+ "http://3.bp.blogspot.com/-zlIAqqM-n8M/VyJ63zeng4I/AAAAAAAAURM/vs9eL5G4RB8RN930Bicw8TBcyRz06qqewCK4B/s1600/31.jpg",
+ "http://3.bp.blogspot.com/-MSmXAiVGqCE/VyJ69ZyJ18I/AAAAAAAAURY/F4ETahTU9ec529Qvt29btGntEq0uMOxQACK4B/s1600/32.jpg",
+ "http://4.bp.blogspot.com/-q30y-sHqKuk/VyJ7BiUla-I/AAAAAAAAURg/XAZ0InriWMAQoykrDsxdRH2Y3ZHNDLLVACK4B/s1600/33.jpg",
+ "http://2.bp.blogspot.com/-KlQ2cstE-dk/VyJ7F6M6McI/AAAAAAAAURo/UgVefE19AN0KIjJREEyHmAieBn0HqOgNACK4B/s1600/34.jpg",
+ "http://4.bp.blogspot.com/-QVJqSsfq0F4/VyJ7JaZesUI/AAAAAAAAURw/r_P-FVMyu1YNEQ-rvN5cBxGbwNf0iRVcwCK4B/s1600/35.jpg",
+ "http://4.bp.blogspot.com/-i-h5j00TbZA/VyJ7NYDWqdI/AAAAAAAAUR8/TzL0tMZOp3Iq55V2LA-5CV_RJ1Mr47UjQCK4B/s1600/36.jpg",
+ "http://1.bp.blogspot.com/-K6wFM57xhOY/VyJ7RMUIKmI/AAAAAAAAUSE/ZFTywUwyVRsghu-dU2uoO7kS1Jg7y3BzgCK4B/s1600/37.jpg",
+ "http://1.bp.blogspot.com/-RFDDknl0lwM/VyJ7VG-EuAI/AAAAAAAAUSM/6T6ZUkC5tqstdsrmPpwz3GOz1ZC-sdenACK4B/s1600/38.jpg",
+ "http://2.bp.blogspot.com/-PUOGHUNSKVE/VyJ7ZLOFFmI/AAAAAAAAUSU/LWJWGX4YY2wcCDLePEB1H_MXTtg1jUVAACK4B/s1600/39.jpg",
+ "http://2.bp.blogspot.com/-H65l7THep_g/VyJ7dZ94lbI/AAAAAAAAUSg/ANQGnh_FXI03iZlG59C_rDMfLHs8G6ZsACK4B/s1600/40.jpg",
+ "http://4.bp.blogspot.com/-wgY2wbW663U/VyJ7rIaTpmI/AAAAAAAAUSs/65CTReYJMfUpv8Grj69LlvBCUlpfRTPHwCK4B/s1600/41.jpg",
+ "http://4.bp.blogspot.com/-MtgHPOtcUfg/VyJ7u_wYjhI/AAAAAAAAUS0/vrASIUS5ubodcUSwjHhrwzcuXnSgbcIVQCK4B/s1600/42.jpg",
+ "http://2.bp.blogspot.com/-gd_KbJ9ysxU/VyJ7ygSrY6I/AAAAAAAAUS8/0tmstsrA-kU6QLytX2AVHBYAMBlSuhKEwCK4B/s1600/43.jpg",
+ "http://4.bp.blogspot.com/-y_75LNmI-BA/VyJ72iyxt_I/AAAAAAAAUTE/sgG9gADNmrMvw6yNKjmJJP3Q7zFjvKbcgCK4B/s1600/44.jpg",
+ "http://2.bp.blogspot.com/-23YH82RVpd4/VyJ77L-dKYI/AAAAAAAAUTM/u1bTxQV-ODY94y7_pC7vOI7QJDRRQ1nuwCK4B/s1600/45.jpg",
+ "http://4.bp.blogspot.com/-gUwmJp0__AU/VyJ7_AqjhDI/AAAAAAAAUTY/AI-x62-uo8kH2ILJCxhGL-G1dF8_MgZJgCK4B/s1600/46.jpg",
+ "http://3.bp.blogspot.com/-Dm9inaJ5zIc/VyJ8DhygOfI/AAAAAAAAUTg/GSODyxNdZk4kIOeg98HAtwLpUKnJQZrGwCK4B/s1600/47.jpg",
+ "http://4.bp.blogspot.com/-13v7PFivfQM/VyJ8I2nEwSI/AAAAAAAAUTo/-FENPrJ-yCAOwyQefhascyjf_wRHQZh9ACK4B/s1600/48.jpg",
+ "http://1.bp.blogspot.com/-aVzIibNcLbQ/VyJ8MvPaYqI/AAAAAAAAUTw/6y7BsLLuliUqHdkmAjMjpL5fVaeUareHQCK4B/s1600/49.jpg",
+ "http://3.bp.blogspot.com/-1AaDCJFKVdI/VyJ8Qji05oI/AAAAAAAAUT4/NnBzC-FXIuMKiPzvw6j3uhz7h9qVSuaywCK4B/s1600/50.jpg",
+ "http://3.bp.blogspot.com/-ao9gWYMS_SU/VyJ8WfiRVgI/AAAAAAAAUUA/W07XCsmy0s8akDmADxKFFALk88KlYzb7ACK4B/s1600/51.jpg",
+ "http://1.bp.blogspot.com/-PQQryHIvsdE/VyJ8bPGI_nI/AAAAAAAAUUM/vu3ASPFB1K4PW5sZYOCEdYgr8oRm_i98wCK4B/s1600/52.jpg",
+ "http://3.bp.blogspot.com/-OGybnT3PR5E/VyJ8fA76cXI/AAAAAAAAUUU/qlhl-L9xsMIPAMKeiduWmsjEO4dEe8gTwCK4B/s1600/53.jpg",
+ "http://2.bp.blogspot.com/-acarcro8nzo/VyJ8jqgz_SI/AAAAAAAAUUg/QdqktaT7PVkoP3sasZlWG5_WbQq-RQMHACK4B/s1600/54.jpg",
+ "http://1.bp.blogspot.com/-sI6fgp7jDak/VyJ8oDh0t5I/AAAAAAAAUUo/mP6UUuiGiPwnBvJVy7a19NhYbYXLmPrNgCK4B/s1600/55.jpg",
+ "http://4.bp.blogspot.com/-vcn50JB4IOc/VyJ8r0qwJ6I/AAAAAAAAUUw/HOOAZ_WT5v4qvf1UgbTVGQMRYJnxtFNBwCK4B/s1600/56.jpg",
+ "http://1.bp.blogspot.com/-76XLFI9dgxE/VyJ8vjIanBI/AAAAAAAAUU4/N2B_kwu6gDEQ3JB_sRg66h2TBkmVSpcugCK4B/s1600/57.jpg",
+ "http://4.bp.blogspot.com/-gnfoMFIi0uE/VyJ80OoHygI/AAAAAAAAUVA/AK9E5i4q8NEWtmhS02ZMcG-PaIXkWPiZQCK4B/s1600/58.jpg",
+ "http://4.bp.blogspot.com/-GzlOLc1Q2xk/VyJ84Ffv_wI/AAAAAAAAUVM/PzNNZs4Sg00YqpEynna7Yfz1zQ15gUiFgCK4B/s1600/59.jpg",
+ "http://2.bp.blogspot.com/-9VOrNJDG2VE/VyJ88IBlGgI/AAAAAAAAUVU/NhwrkBDHpXA_eYwCCnOZYCzLZjgI8W9egCK4B/s1600/60.jpg",
+ "http://3.bp.blogspot.com/-B7e1zTEKREw/VyJ8_9lPU_I/AAAAAAAAUVc/m27v43TiA1EkVYReJi7dXG1gTfaw4jyIQCK4B/s1600/61.jpg",
+ "http://2.bp.blogspot.com/--Mrw4kURRzI/VyJ9D0UG3fI/AAAAAAAAUVo/0Uq7JS0siAkzSc9J5L2-rfQQaSNwf2pdwCK4B/s1600/62.jpg",
+ "http://1.bp.blogspot.com/--COgusT7WpM/VyJ9HNIMs_I/AAAAAAAAUVw/lGDUf60SsDILJ1EjBySRA_e4sY6z5rfPACK4B/s1600/63.jpg",
+ "http://4.bp.blogspot.com/-39ifhI0bfss/VyJ9LS5iAWI/AAAAAAAAUV4/8no6jyBAmYcmufZvriIJICo8bkkUzaLoQCK4B/s1600/64.jpg",
+ "http://1.bp.blogspot.com/--yq_5TJwvOs/VyJ9PXvbTvI/AAAAAAAAUWA/RF4O_FV93tQccP2rKC76XMpkZfilDN39wCK4B/s1600/65.jpg",
+ "http://1.bp.blogspot.com/-PurBVGRAYVU/VyJ9Tz3FcSI/AAAAAAAAUWM/mdqh6bOfuqchsY_3sOZowqtTraU6xEsewCK4B/s1600/66.jpg",
+ "http://1.bp.blogspot.com/-BNoPqqXljOA/VyJ9Xy8hVmI/AAAAAAAAUWU/-mpPp_PDKGUhDIoFjhv2ytFZmfvEmQnigCK4B/s1600/67.jpg",
+ "http://1.bp.blogspot.com/-C78vxd1EYGo/VyJ9cwqtxtI/AAAAAAAAUWc/9YDuVUQ3tVgl11TJ44EM1znkZ23sCQWKQCK4B/s1600/68.jpg",
+ "http://2.bp.blogspot.com/-upoBC67qZ4c/VyJ9gyISPYI/AAAAAAAAUWo/bPylToLAfL8H6tbF5Kn1ln4YaT0-_DC4QCK4B/s1600/69.jpg",
+ "http://2.bp.blogspot.com/-gP7evVeddSE/VyJ9kdjYK3I/AAAAAAAAUWw/kuNL7xiS11AxYiIZVRNW3j0IIJovUsdEACK4B/s1600/70.jpg",
+ "http://3.bp.blogspot.com/-E6_dHqC07mE/VyJ9n3I_VJI/AAAAAAAAUW4/aMdTVBo0Q_8K8iOVE2ReNk65KQkjvF-dgCK4B/s1600/71.jpg",
+ "http://3.bp.blogspot.com/-zauGBPVPJgg/VyJ9rkVkd1I/AAAAAAAAUXE/Xx4tdBj0m6QSuXzwoLx1njgvkvhGlctggCK4B/s1600/72.jpg",
+ "http://1.bp.blogspot.com/-5dEyQGzxO2Y/VyJ9wmM6V5I/AAAAAAAAUXM/mGtCBFyUeIsS2Qh5hXfgI1BDOok-fdNbwCK4B/s1600/73.jpg"];
+ 
 var noThumbArrays;			
  
 function mythumb66(json) {
@@ -300,6 +375,7 @@ function mythumb66(json) {
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "I have a crush"){noThumbArrays = ihac;}else 
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men videos"){noThumbArrays = dfm;}else 
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men feedback"){noThumbArrays = bufm;}else
+                if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for women" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for women articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for women videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for women audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for women feedback"){noThumbArrays = bufw;}else
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men feedback"){noThumbArrays = jfm;}else
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for women" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for women articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for women videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for women audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for women feedback"){noThumbArrays = jfw;}else
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "babaji" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "mataji" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "mataji articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "babaji articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "babaji videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "babaji audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "babaji feedback"){noThumbArrays = bm;}
@@ -357,6 +433,7 @@ function mythumb66(json) {
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "I have a crush"){noThumbArrays = ihac;}else 
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men videos"){noThumbArrays = dfm;} else
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men feedback"){noThumbArrays = bufm;}else
+                if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for women" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for women articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for women videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for women audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for women feedback"){noThumbArrays = bufw;}else
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for men feedback"){noThumbArrays = jfm;}else
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for women" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for women articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for women videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for women audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "jealousy for women feedback"){noThumbArrays = jfw;}else
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "babaji" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "mataji" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "mataji articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "babaji articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "babaji videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "babaji audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "babaji feedback"){noThumbArrays = bm;}
