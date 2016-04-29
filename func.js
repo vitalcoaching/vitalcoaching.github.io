@@ -389,9 +389,10 @@ function mythumb66(json) {
               var cdmonth = postdate.substring(5, 7);
               var cdday = postdate.substring(8, 10);
               var towrite = '';
-                document.write('<a href="' + posturl + '"><span class="xpose_thumb2"><img width="' + thumb_width2 + '" height="' + thumb_height2 + '" alt="' + posttitle + '" src="' + thumburl2.replace("/default.jpg","/hqdefault.jpg") + '"/></span></a>'+ '<span class="linkshortcode"><a href="'+ posturl +'" class="xpose_meta_label_names">' + posttitle + '</a></span>');
-              if(json.feed.entry.length == json.feed.openSearch$itemsPerPage.$t && i == (json.feed.entry.length-1)) {
-               document.write('<span class="more_read_link"><a href="'+ json.feed.link[2].href +'" class="read_more">></a></span>');
+              if(json.feed.entry.length == json.feed.openSearch$itemsPerPage.$t && i == (json.feed.entry.length-1)){
+                document.write('<a href="' + posturl + '"><span class="xpose_thumb2"><img width="' + thumb_width2 + '" height="' + thumb_height2 + '" alt="' + posttitle + '" src="' + thumburl2.replace("/default.jpg","/hqdefault.jpg") + '"/></span></a>'+ '<span class="linkshortcode"><a href="'+ posturl +'" class="xpose_meta_label_names">' + posttitle + '</a></span><span class="more_read_link"><a href="'+ json.feed.link[2].href +'" class="read_more">></a></span>');
+              }else {
+               document.write('<a href="' + posturl + '"><span class="xpose_thumb2"><img width="' + thumb_width2 + '" height="' + thumb_height2 + '" alt="' + posttitle + '" src="' + thumburl2.replace("/default.jpg","/hqdefault.jpg") + '"/></span></a>'+ '<span class="linkshortcode"><a href="'+ posturl +'" class="xpose_meta_label_names">' + posttitle + '</a></span>');
               }
               if (showcommentnum2 == true) {
                 if (commenttext == '1 Comments') commenttext = '1 Comment';
@@ -447,9 +448,10 @@ function mythumb66(json) {
               var cdmonth = postdate.substring(5, 7);
               var cdday = postdate.substring(8, 10);
               var towrite = '';
-                document.write('<a href="' + posturl + '"><span class="xpose_thumb2"><img width="' + thumb_width2 + '" height="' + thumb_height2 + '" alt="' + posttitle + '" src="' + thumburl2.replace("/default.jpg","/hqdefault.jpg") + '"/></span></a>'+ '<span class="linkshortcode"><a href="'+ posturl +'" class="xpose_meta_label_names">' + posttitle + '</a></span>');
-              if(json.feed.entry.length == json.feed.openSearch$itemsPerPage.$t && i == (json.feed.entry.length-1)) {
-               document.write('<span class="more_read_link"><a href="'+ json.feed.link[2].href +'" class="read_more">></a></span>');
+             if(json.feed.entry.length == json.feed.openSearch$itemsPerPage.$t && i == (json.feed.entry.length-1)){
+                document.write('<a href="' + posturl + '"><span class="xpose_thumb2"><img width="' + thumb_width2 + '" height="' + thumb_height2 + '" alt="' + posttitle + '" src="' + thumburl2.replace("/default.jpg","/hqdefault.jpg") + '"/></span></a>'+ '<span class="linkshortcode"><a href="'+ posturl +'" class="xpose_meta_label_names">' + posttitle + '</a></span><span class="more_read_link"><a href="'+ json.feed.link[2].href +'" class="read_more">></a></span>');
+              }else {
+               document.write('<a href="' + posturl + '"><span class="xpose_thumb2"><img width="' + thumb_width2 + '" height="' + thumb_height2 + '" alt="' + posttitle + '" src="' + thumburl2.replace("/default.jpg","/hqdefault.jpg") + '"/></span></a>'+ '<span class="linkshortcode"><a href="'+ posturl +'" class="xpose_meta_label_names">' + posttitle + '</a></span>');
               }
               if (showcommentnum2 == true) {
                 if (commenttext == '1 Comments') commenttext = '1 Comment';
