@@ -10,6 +10,33 @@ var dfw = ["http://4.bp.blogspot.com/-0n0BwQMURII/VxbKBtVlaoI/AAAAAAAATtY/SoHrAa
  "http://4.bp.blogspot.com/-NhRPEn6fdXo/VxbMn_V7LVI/AAAAAAAATu0/x1OJZ2k37kQdXjf3uIpSzl5SNCx6QrvWgCK4B/s1600/10.jpg",
  "http://4.bp.blogspot.com/-kdC8thdGhLM/VxbMsuIVlxI/AAAAAAAATu8/1K9bZEfld94oZTWVQlj0YRCieCaktHjnQCK4B/s1600/11.jpg"];
  
+var sfm = ["http://1.bp.blogspot.com/-InEQQ6efycA/Vy_MtayKtHI/AAAAAAAAUvg/8KytUMt-_G8Rt4hSBEO6jk_rrsV_YXIewCK4B/s1600/1.jpg",
+ "http://4.bp.blogspot.com/-libhobPKWOE/Vy_MxU3Zv5I/AAAAAAAAUvo/_Ov1uIbWbWs9rutJyzDUojWG1kXzpNhFQCK4B/s1600/2.jpg",
+ "http://4.bp.blogspot.com/-Ew6Dump0OOs/Vy_M1d1phqI/AAAAAAAAUv0/OVcfSw8qqp4862oTQbaH2Icu9DzOpOz1gCK4B/s1600/3.jpg",
+ "http://4.bp.blogspot.com/-4suULjRgf80/Vy_M5B9msZI/AAAAAAAAUv8/mIGldU6Mv7sL1u3D0irMSHZnjyCslzdIACK4B/s1600/4.jpg",
+ "http://1.bp.blogspot.com/-dzY6cbcHwog/Vy_M88DITrI/AAAAAAAAUwE/75BMPLn4FpMm5BqdXEs5Gh0fKRzoUa-jgCK4B/s1600/5.jpg",
+ "http://4.bp.blogspot.com/-k9f3Mtq8ZBY/Vy_NBZkRWPI/AAAAAAAAUwM/vNne-CS31CQjReN2ErLFdaTzBgnAaZcvgCK4B/s1600/6.jpg",
+ "http://2.bp.blogspot.com/-_53WEzDNl9M/Vy_NEqCKjsI/AAAAAAAAUwU/uuWsygicgpwZcNH1ZE6JbuLEOjZ-nKOMwCK4B/s1600/7.jpg",
+ "http://3.bp.blogspot.com/-wU2bu1Le1xA/Vy_NJE_NaRI/AAAAAAAAUwc/O-c-vqQFkJwGcokaaviTBnGFrFAfMV9xgCK4B/s1600/8.jpg",
+ "http://3.bp.blogspot.com/-5o9wyMljNr0/Vy_NM8EeiYI/AAAAAAAAUwk/IUu909jXSDs9BbPOUfMUqqG886j1eqTwACK4B/s1600/9.jpg",
+ "http://1.bp.blogspot.com/-lB7qzP7TTjk/Vy_NRNs_YRI/AAAAAAAAUww/FLpRc7X375sitJ6Io8s8gUVJOKURJ8cNwCK4B/s1600/10.jpg",
+ "http://3.bp.blogspot.com/-gj58ahFn7jQ/Vy_NUaNsiDI/AAAAAAAAUw4/2bRWNZ-J-O4cOdY8s3tgTh-8WFvYsllqwCK4B/s1600/11.jpg",
+ "http://2.bp.blogspot.com/-78FyRJHUpXU/Vy_NYQP_28I/AAAAAAAAUxA/1bZTLfCcItcWgcqG-EZVH3HENIzzKueywCK4B/s1600/12.jpg",
+ "http://2.bp.blogspot.com/-0KbM_wsLBRc/Vy_Nb90lhtI/AAAAAAAAUxM/m4AFDZKYh9MMqVIAXGPFhRxkSnKDNeUWwCK4B/s1600/13.jpg",
+ "http://2.bp.blogspot.com/-iZmYZ5bR49U/Vy_Nfmh6GeI/AAAAAAAAUxU/Z9NOVy1GBcELgvBV00ENGY2B38B5pAtZwCK4B/s1600/14.jpg",
+ "http://1.bp.blogspot.com/-zRtaVhCIO1s/Vy_NjSn6TfI/AAAAAAAAUxc/d7gTciGvRvMp93f_QLynkR9QFOYmHNnHwCK4B/s1600/15.jpg",
+ "http://2.bp.blogspot.com/-sTTiWjBzWis/Vy_Np6D1pOI/AAAAAAAAUxo/bF-j8Ge7vDsZDYkFVKyE8--zbEiDK_msQCK4B/s1600/16.jpg",
+ "http://1.bp.blogspot.com/-3awg6dcYKqw/Vy_OG1QYD_I/AAAAAAAAUx0/r8PBMtrxsCMvQgem8aAjGtR41XjwDxyYACK4B/s1600/17.jpg",
+ "http://3.bp.blogspot.com/--30YvXPExQ8/Vy_OKMM14iI/AAAAAAAAUx8/si-cPrk9qUohk0pdICIAS4Npo7bzQOQCwCK4B/s1600/18.jpg",
+ "http://3.bp.blogspot.com/-CaEmfR6KhvM/Vy_ONjPjLSI/AAAAAAAAUyI/qVof6aIDogkSVQytMrAcP-ytjtdAcGrHgCK4B/s1600/19.jpg",
+ "http://3.bp.blogspot.com/-5iUdYqFmC8c/Vy_OREL53PI/AAAAAAAAUyQ/P1-dwOKZcMg4QjuJvazOX3t0K09Ju_BZwCK4B/s1600/20.jpg",
+ "http://4.bp.blogspot.com/-d78BI_n_hbY/Vy_OUi9MYgI/AAAAAAAAUyY/cjpK-FGZW2MmyhVzfex4ESUZ7iiS70DBQCK4B/s1600/21.jpg",
+ "http://3.bp.blogspot.com/-XqhpEoojuK8/Vy_OYZTwAsI/AAAAAAAAUyg/0FQy8My2v0c0nQz_7ieA8xK9MJnSIxZCQCK4B/s1600/22.jpg",
+ "http://2.bp.blogspot.com/-cl9Vu84PY1o/Vy_OcNRA94I/AAAAAAAAUyo/FUhMbOKh-zIj1zB7kwaTkBFSBMPsfj23gCK4B/s1600/23.jpg",
+ "http://1.bp.blogspot.com/-0rVeRcrySTY/Vy_OgUCCwsI/AAAAAAAAUyw/CMjKfXxbFV4uHpfcGj1akjhENvS_OFclACK4B/s1600/24.jpg",
+ "http://1.bp.blogspot.com/--0JOy4y56ts/Vy_OkJ-DHbI/AAAAAAAAUy4/xBvNkgyA6z4U5okwTdTyNcurdrjSMCxdwCK4B/s1600/25.jpg",
+ "http://3.bp.blogspot.com/-gHCLZ3TB3X8/Vy_Onw9aUfI/AAAAAAAAUzE/WMPJOF9WF4se_dSN4a4jd63mPrKBFgwJQCK4B/s1600/26.jpg"];
+ 
 var ts = [
  "http://3.bp.blogspot.com/-BYB35BjVWE0/VyUtNhGprlI/AAAAAAAAUiU/HKULoDjqVasYDiuFCMkOG_QivQzhwXhDwCK4B/s1600/1.jpg",
  "http://2.bp.blogspot.com/--z7pU8O8HQ4/VyUtSfsBSEI/AAAAAAAAUic/185N6yC3a2MdWtjMIwM9QsYtQvQqcyUtQCK4B/s1600/2.jpg",
@@ -505,6 +532,7 @@ function mythumb66(json) {
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for women"){noThumbArrays = dfw;}else 
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "I have a crush"){noThumbArrays = ihac;}else 
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "vital women"){noThumbArrays = vw;}else 
+                if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "sex for men"){noThumbArrays = sfm;}else
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men videos"){noThumbArrays = dfm;}else
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "tantric sex" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "tantric sex articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "tantric sex videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "tantric sex audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "tantric sex feedback" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "tantric sex mantras" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "tantric sex images"){noThumbArrays = ts;}else
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "break up for men feedback" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "midlife crisis"){noThumbArrays = bufm;}else
@@ -564,6 +592,7 @@ function mythumb66(json) {
                 d = s.substr(b + 5, c - b - 5);
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for women"){noThumbArrays = dfw;}else 
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "I have a crush"){noThumbArrays = ihac;}else 
+                if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "sex for men"){noThumbArrays = sfm;}else
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "vital women"){noThumbArrays = vw;}else 
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "dating for men videos"){noThumbArrays = dfm;} else
                 if(json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "tantric sex" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "tantric sex articles" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "tantric sex videos" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "tantric sex audios" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "tantric sex feedback" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "tantric sex mantras" || json.feed.link[2].href.replace(/%20/g," ").split("/search/label/")[1] == "tantric sex images"){noThumbArrays = ts;}else
